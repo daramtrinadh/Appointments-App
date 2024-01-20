@@ -1,0 +1,63 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  padding: 40px;
+}
+.inner-container {
+  display: flex;
+  flex-direction: row;
+}
+.inner {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+}
+.hr {
+  background-color: #b5b7c4;
+  width: 100%;
+}
+.dateLabel {
+  margin-top: 20px;
+}
+.dateInput {
+  margin-top: 10px;
+}
+.addBtn {
+  margin-top: 20px;
+  background-color: #8b5cf6;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  border-width: 0px;
+  cursor: pointer;
+}
+.appointimage {
+  height: 270px;
+}
+.appointments {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.para {
+  border: 1px solid #9897f0;
+  padding: 5px;
+  color: #9897f0;
+  border-radius: 15px;
+  cursor: pointer;
+  outline: none;
+  border-width: 0px;
+  background-color: transparent;
+}
+.ullist {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+}

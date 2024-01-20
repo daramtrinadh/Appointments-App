@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.list {
+  border: 1px solid #b5b7c4;
+  border-radius: 5px;
+  padding: 10px;
+  width: 30%;
+  margin: 5px;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.starImage {
+  height: 30px;
+}
+.btn {
+  cursor: pointer;
+  outline: none;
+  border-width: 0px;
+  background-color: transparent;
+}
